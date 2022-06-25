@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Test Api</title>
+</head>
+<body>  
+       <div class="color-filter">
+            <div class="div"><p>Color:</p></div>    
+            <div class="div"><select id="filter"> </select></div>    
+        </div>
+        <div class="color-filter">
+            <div class="div" style="padding-top: 5px; font-size: 22px;">Average Milk:</div>    
+            <div class="div">
+                <input type="number" id="filter_milk_avg_min" placeholder="min">
+                <input type="number" id="filter_milk_avg_max" placeholder="max">
+            </div>
+        </div>
+        <div class="content">
+            <table id="table-header" class="cows-heder">
+                <tr class="names">
+                    <td id="cow-name-sort">Cow Name</td>
+                    <td id="cow-date-sort">Birth Date</td>
+                    <td id="cow-color-sort">Color</td>
+                    <td id="cow-age-sort">Age</td>
+                    <td id="cow-milk-sort">Milk</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="my-farm"></div>
+        <div id="pag" class="pag">
+                
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

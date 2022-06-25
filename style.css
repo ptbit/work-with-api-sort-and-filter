@@ -1,0 +1,125 @@
+body{
+    width: 880px;
+}
+.cows{
+    border: 1px solid black;
+    border-top: 0;
+}
+.names td{
+    border: 1px solid black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    /* padding: 5px; */
+    user-select: none;
+    color: #000;
+    width: 170px;
+}
+.names td:hover{
+    color: rgb(40, 64, 241);
+}
+.cows-heder{
+    border: 1px solid black;
+    border-bottom: 0;
+}
+.cows td{
+    border: 1px solid black;
+    width: 170px;
+    text-align: center;
+    font-size: 16px;
+    /* font-weight: 700; */
+}
+.cows tr:hover{
+    background: rgba(81, 82, 85, 0.432);
+}
+
+.color-filter {
+    display: flex;
+    margin-bottom: 15px;
+}
+.color-filter p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.color-filter input {
+    font-size: 22px;
+    margin-left: 5px;
+    width: 60px;
+    text-align: center;
+}
+
+.color-filter select{
+    margin-left: 15px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+}
+/* AKS pagination Start */
+.pagination{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.pagination ul{
+    padding-left: 0px;
+}
+ul li {
+    list-style: none;
+    
+}
+.pagination li {
+    margin: 0 0 5px 5px;
+    float: left;
+}
+.pagination li a {
+    display: block;
+    min-width: 34px;
+    padding: 0 3px;
+    height: 34px;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    background: #bbb;
+    transition: all .3s linear;
+}
+.prev span::after {
+    content: '<';
+  }
+.next span::after {
+    content: '>';
+}
+.pagination li a {
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+}
+/* AKS pagination Start */
+.pag{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.pag ul {
+    padding-left: 0px;
+}
+.pag div{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    user-select: none;
+    /* background-color: gray; */
+}
+.pag div:hover{
+    background-color: rgba(38, 11, 243, 0.478);
+}
+.active{
+    background-color: gray;
+}
